@@ -1,16 +1,15 @@
 # Atom
 - Atomとは，GitHubが開発したオープンソースのテキストエディタである．
-- インストールしたパッケージのリスト
-[atom_installed_packages.txt](atom_installed_packages.txt)
+- インストールしたパッケージのリスト：[atom_installed_packages.txt](atom_installed_packages.txt)
 
 ## インストール
 ```
-$ apm install --packages-file atom_installed_packages.txt
+apm install --packages-file atom_installed_packages.txt
 ```
 
 ## 更新方法
 ```
-$ apm list -bi > atom_installed_packages.txt
+apm list -bi > atom_installed_packages.txt
 ```
 
 ## パッケージ
